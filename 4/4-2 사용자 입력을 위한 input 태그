@@ -1,0 +1,65 @@
+<input> 태그 살펴보기
+-폼에서 사용자 입력을 받기 위해 사용하는 태그
+
+<input> 태그 - 입력 항목 만들기
+- <input type="유형" [속성="속성 값"]>
+
+id 속성 사용하기
+- 속성 값은 최소한 한 개 이상의 문자여야ㅐ 하고 공백이 있어서는 안됨
+
+type="hidden" - 히든 필드 만들기
+- <input type="hidden" name="이름" value="서버로 넘길 값">
+- 히든 필드는 화명상의 폼에는 보이지 않지만 사용자가 입력을 마치고 폼을 서버로 전송할 때 서버로 함게 전송되는 요소
+- 사용자에게 굳이 보여 줄 필요가 없지만 관리자가 알아야 하는것을 히든 필드로 입력
+
+type="text" - 텍스트 필드 만들기
+- <input type="text" [속성="속성 값"]>
+- 텍스트 필드는 한 줄짜리 일반 텍스트를 입력하는 필드
+
+type="password" - 비밀번호 입력란 만들기
+- <input type="password" [속성="속성 값"]>
+- 텍스트 필드와 달리 입력하는 내용이 화면에 표시되지 않음
+
+type="search", type="url", type="email", type="tel" - 분화된 텍스트 필드
+- type="search" - 검색 상자 만들기
+- <input type="search" [속성="속성 값"]>
+
+- type="url" - URL입력란 만들기
+- <input type="url" [속성="속성 값"]>
+
+- type="email" - 메일 주소 입력란 만들기
+- <input type="email" [속성="속성 값"]> 
+
+- type="tel" - 전화번호 입력란 만들기 
+- <input type="tel" [속성="속성 값"]>
+
+- type="number" - 숫자 입력하기 
+- <input type="number" [속성="속성 값"]>
+
+- type="range" - 슬라이드 막대로 숫자 지정하기 
+- <input type="range" [속성="속성 값"]>
+
+- type="radio", type="checkbox" - 라디오 버튼과 체크박스 넣기
+- <input type="radio" [속성="속성 값"]>
+- <input type="checkbox" [속성="속성 값"]>
+
+- type="color" - 색상 선택 상자 표시하기 
+- <input type="color" [속성="속성 값"]>
+
+- type="date", type="month", type="week" - 날짜 표시하기
+- <input type="date | month | week" [value="기본 값" 속성="속성 값"]>
+
+- type="time", type="datetime", type="datetime-local" - 시간 지정하기
+- <input type="time | datetime | datetime-local" [value="기본 값" 속성="속성 값"]>
+
+- type="submit", type="reset" - 서버 전송, 리셋 버튼 넣기
+- <input type="submit | reset" [value="기본 값" 속성="속성 값"]> 
+
+- type="image" - 이미지 버튼 넣기 
+- <input type="image" src="경로" alt="대체 텍스트" [속성="속성 값"]>
+
+- type="button" - 버튼 넣기 
+- <input type="button"[value="버튼 내용"] [속성="속성 값"]>
+
+- type="file" - 파일 첨부하기
+- <label> 첨부파일 <input type="file"></label>

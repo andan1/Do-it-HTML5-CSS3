@@ -1,0 +1,14 @@
+<button> 태그 - 버튼 넣기
+- <button [type="submit | reset | button"]> 내용 </button>
+
+<output> 태그 - 계산 결과
+- 입력하는 값이 계산 결과라는 것을 브라우저에게 알려 줌
+- <output [속성="속성 값"]> 내용 </output> 
+
+<progress> 태그 - 진행 상태 보여주기
+- 작업 진행 상태를 나타낼 때 사용
+- <progress value="값" [max="값"]></progress>
+
+<meter> 태그 - 값이 차지하는 크기 표시하기
+- 전체 크기 중에서 얼마나 차지하는지를 표현할 때 사용
+- <meter value="값" [속성="속성 값"]></meter>

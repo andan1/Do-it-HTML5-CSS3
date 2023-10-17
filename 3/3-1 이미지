@@ -1,0 +1,14 @@
+<img> 태그 - 이미지 삽입하기
+- <img src="경로" [속성="값"]>
+
+alt 속성 - 이미지를 설명해 주는 대체 텍스트
+- 이미지를 설명하는 대체 텍스트를 삽입할 때 사용
+
+width, height 속성 - 이미지 크기 조정하기
+- 이미지 자체를 조절
+
+<figure>, <figcaption> 태그 - 이미지에 설명 글 붙이기
+- <figure> : 설명 글을 붙이 대상 지정
+- <figure> 요소 </figure>
+- <figcaption> 태그 - 설명 글 붙이기
+- <figcaption> 설명 글 </figcaption>
