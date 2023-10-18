@@ -1,0 +1,29 @@
+font-family 속성 - 글꼴 지정하기
+- font-family:<글꼴 이름>[<글꼴 이름>, <글꼴 이름>]
+
+@font-face 속성 - 웹 폰트 사용하기
+- 웹 문서를 통해 필요한 글꼴들을 사용자 컴퓨터에 다운로드한 후 표시
+- 직접 웹 폰트 업로드해 사용하기
+- 웹 폰트 적용하기
+- 기본형
+@font-face {
+    font-family:글꼴 이름;
+    src:url(글꼴 파일 경로) format(파일 유형);
+}
+
+font-size 속성 - 글자 크기 조절하기
+- font-size: <절대 크기> | <상대 크기> | <크기> | <백분율>
+- px 단위 사용하기 : 폰트 크기 지정
+- em 단위 사용하기 : 모바일 기기에서 접속할 경우 
+
+font-weight 속성 - 글자 굵기 지정하기
+- font-weight: normal | bold | bolder | lighter | 100~900
+
+font-variant 속성 - 작은 대문자로 표기하기
+- font-variant: normal | small-caps
+
+font-style 속성 - 글자 스타일 지정하기
+- font-style: normal | italic | oblique
+
+font 속성 - 글꼴 속성을 한꺼번에 묶어 표현하기
+- font: <font-style><font-variant><font-weight><font-size/line-height><font-family>

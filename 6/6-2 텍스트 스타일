@@ -1,0 +1,19 @@
+color 속성 - 글자 색 지정하기
+- color : <색상>
+
+text-decoration 속성 - 텍스트에 줄 표시하기/없애기
+- text-decoration : none | underline | overline | line-through
+
+text-transform 속성 - 텍스트 대소문자 변환하기
+- text-transform : none | capitalize | uppercase | lowercase | full-width
+
+text-shadow 속성 - 텍스트에 그림자 효과 추가하기
+- text-shadow : none | <가로 거리><세로 거리><번짐 정도><색상>
+
+white-space 속성 - 공백 처리하기
+- white-space : normal | nowrap | pre | pre-line | pre-wrap
+
+letter-spacing과 word-spacing 속성 - 텍스트 간격 조절하기
+- letter-spacing : normal | <크기>
+- word-spacing : normal | <크기>
+
