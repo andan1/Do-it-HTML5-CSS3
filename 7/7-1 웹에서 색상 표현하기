@@ -1,0 +1,21 @@
+16진수 표기법
+- # 기호 다음에 6자리의 16진수로 표시하는 것
+
+rgb와 rgba 표기법
+- 0~255로 표시
+- rgb(red 값, green 값, blue값);
+- rgba(red 값, green 값, blue값, alpha 값);
+- alpha : 투명값
+
+hsl과 hsla 표기법
+- hue : 색상
+- saturation : 채도
+- lightness : 밝기
+- hsl(<hue 값>, <saturation 값>, <lightness 값>);
+- hsla(<hue 값>, <saturation 값>, <lightness 값>, <alpha 값>);
+
+색상 이름 표기법
+- 웹 안전 색상 : 모든 브라우저에서 표현할 수 있는 색상
+
+색상 추출 사이트 이용하기
+- Color Picker
