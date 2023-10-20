@@ -1,0 +1,17 @@
+웹에서 사용하는 멀티미디어
+- 플러그인 프로그램 사용
+
+<object> 태그와 <embed> 태그 - 플러그인 사용하기
+- <object> 태그 - 외부 파일 삽입하기
+    - <object data="경로" type="유형" [name="이름" width="너비" height="높이"]></object>
+- <embed> 태그 - 외부 파일 삽입하기
+    - <embed src="경로" type="유형" width="너비" height="높이">
+
+멀티미디어의 웹 표준화
+- HTML5와 비디오 코덱
+    - H.264/AVC
+    - V8, V9
+    - 오그 테오라
+- HTML5와 오디오 코덱
+    - MPEG-1 AUDIO Layer3
+    - Ogg Vorbis
