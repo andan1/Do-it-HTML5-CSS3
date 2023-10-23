@@ -1,0 +1,12 @@
+transform-origin 속성 - 변형 기준점 설정하기
+- transform-origin: <x축> <y축> <z축> | initial | inherit ;
+
+perspective, perspective-origin 속성 - 원근감 표현하기
+- perspective: <크기> | none;
+- perspective-origin: <x축 값> | <y축 값>;
+
+transform-style 속성 - 3D 변형 적용하기
+- transform-style: flat | preserve-3d
+
+backface-visibility 속성 - 요소의 뒷면 표시하기
+- backface-visibility: visible | hidden

@@ -1,0 +1,24 @@
+2차원 변형과 3차원 변형
+- 이미지 변형
+
+transform과 변형 함수
+- transform: 변형 함수;
+
+translate 변형 함수 - 요소 이동시키기
+- transform: translate(tx, ty)
+- transform: translate3d(tx, ty,tz)
+- transform: translateX(tx)
+- transform: translateY(ty)
+- transform: translateZ(tz)
+
+scale 변형 함수 - 요소 확대/축소하기
+- transform: scale(sx, sy)
+- transform: scale3d(sx, sy, sz)
+- transform: scaleX(sx)
+- transform: scaleY(sy)
+- transform: scaleZ(sz)
+
+skew 변형 함수 - 요소를 비틀어 왜곡하기
+- transform: skew(ax, ay)
+- transform: skewX(ax)
+- transform: skewY(ay)

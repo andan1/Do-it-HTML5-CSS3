@@ -1,0 +1,25 @@
+CSS와 애니메이션
+- 키프레임 : 애니메이션 중간에 스타일이 바뀌는 지점
+- CSS 애니메이션에서 사용하는 속성 : animation
+
+@keyframes 속성 - 애니메이션 지점 설정하기
+- @keyframes <이름> {<선택자> {<스타일>}}
+- from, to 키워드 사용
+
+animation-name 속성 - 애니메이션 이름 지정하기
+- animation-name: <키프레임 이름> | none
+
+animation-duration 속성 - 애니메이션 실행 시간 설정하기
+- animation-duration: <시간>
+
+animation-direction 속성 - 애니메이션 방향 지정하기
+- animation-direction: normal | alternate
+
+animation-iteration-count 속성 - 반복 횟수 지정하기
+- animation-iteration-count: <숫자> | infinite
+
+animation-timing-function 속성 - 애니메이션 속도 곡선 지정하기
+- animation-timing-function: linear | ease | ease-in | ease-out | ease-in-out | cubic-bezier(n,n,n,n)
+
+animation 속성 - 애니메이션 관련 속성 한꺼번에 표기하기
+- animation: name | duration | timing-function | delay | iteration-count | direction
