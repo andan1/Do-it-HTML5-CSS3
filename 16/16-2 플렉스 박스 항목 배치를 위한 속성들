@@ -1,0 +1,9 @@
+justify-content 속성 - 주축 기준의 배치 방법 지정하기
+- justify-content: flex-start | flex-end | center | space-between | space-around
+
+align-items 속성, align-self 속성 - 교차축 기준의 배치 방법 지정하기
+- align-items: stretch | flex-start | flex-end | center | baseline
+- align-self: auto | stretch | flex-start | flex-end | center | baseline
+
+align-content 속성 - 여러 줄일 때의 배치 방법 지정하기
+- align-content: flex-start | flex-end | center | space-between | space-around

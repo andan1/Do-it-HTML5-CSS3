@@ -1,0 +1,9 @@
+외부 CSS 파일 연결하기
+- <link> 태그 사용하기
+    - <link rel="stylesheet" media="미디어 쿼리 조건" href="css 파일 경로">
+- @import 구문 사용하기
+    - @import url(css 파일 경로) 미디어 쿼리 조건
+
+웹 문서에서 직접 정의하기
+- <style media="미디어 쿼리 조건">스타일 규칙들</style>
+- <style> @media 미디어 쿼리 조건{스타일 규칙들} </style>
